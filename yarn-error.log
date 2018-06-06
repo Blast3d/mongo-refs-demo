@@ -1,0 +1,37 @@
+Arguments: 
+  /Users/ryanhamblin/.nvm/versions/node/v8.6.0/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js install mognoose express helmet cors
+
+PATH: 
+  /Users/ryanhamblin/.nvm/versions/node/v8.6.0/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/ryanhamblin/google-cloud-sdk/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.6.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "mongo-refs",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: `install` has been replaced with `add` to add new dependencies. Run "yarn add mognoose express helmet cors" instead.
+      at new MessageError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:186:110)
+      at Object.<anonymous> (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:21987:13)
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:109:13
+      at <anonymous>
